@@ -37,19 +37,19 @@ async function checkWeather(city){
 
     switch(weather_data.weather[0].main){
         case 'Clouds':
-            weather_img.src = "/assets/cloud.png";
+            weather_img.src = "https://github.com/jeeva79/weatherapp/assets/125794481/93809bd5-ccbb-46a8-9fad-788290254492";
             break;
         case 'Clear':
-            weather_img.src = "/assets/clear.png";
+            weather_img.src = "https://github.com/jeeva79/weatherapp/assets/125794481/ace1bdae-3ddd-405b-b559-4d2558e29d91";
             break;
         case 'Rain':
-            weather_img.src = "/assets/rain.png";
+            weather_img.src = "https://github.com/jeeva79/weatherapp/assets/125794481/26c4a3a5-186d-4012-955a-4cb86928e45e";
             break;
         case 'Mist':
-            weather_img.src = "/assets/mist.png";
+            weather_img.src = "https://github.com/jeeva79/weatherapp/assets/125794481/868a25e3-716d-4c61-ae31-d9cd15356f97";
             break;
         case 'Snow':
-            weather_img.src = "/assets/snow.png";
+            weather_img.src = "https://github.com/jeeva79/weatherapp/assets/125794481/dce7c911-9a57-43d7-84cf-c6d4c6b60b0f";
             break;
 
     }
